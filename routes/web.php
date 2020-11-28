@@ -16,11 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
+/*
 Route::get('/service', function (){
     $name = request ('name');
     return view('service', [
         'name' => $name
 
     ]);
+*/
+//Route::get('/service/{post}', 'ServiceController@show');
+
+Route::get('/service', function () {
+    return view('service');
 });

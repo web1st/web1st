@@ -7,7 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class Service extends Model
 {
     // Add Function
-    public function name(){
-        return "Services";
+    public function type()
+    {
+        $this->type  = 'office';
+        $this->save();
     }
 }

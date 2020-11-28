@@ -1,9 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use Illuminate\Http\Request;
+use DB;
 use App\Service;
+use Illuminate\Http\Request;
 
 class ServiceController extends Controller
 {
@@ -47,7 +47,16 @@ class ServiceController extends Controller
      */
     public function show($id)
     {
-        //
+        $post = Service::where('id', $id)->first();
+
+        // this substitut firstOrFail method instead of first 
+         if (!$post){
+         abort(404, 'Sorry post was not found.');
+          }
+
+        return view ('service', [
+            'post' => $post
+        ]);
     }
 
     /**
