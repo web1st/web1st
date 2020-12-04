@@ -1,4 +1,9 @@
-body {
-  color: blue;
+header li {
+  list-style: none;
+  align-self: flex-start;
+}
+
+header h3 {
+  color: black;
 }
 

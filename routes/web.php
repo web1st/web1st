@@ -28,4 +28,28 @@ Route::get('/service', function (){
 
 Route::get('/service', function () {
     return view('service');
+    
 });
+
+Route::get('/offer', function(){
+return view('offer');
+
+});
+Route::get('/schedule', function(){
+    return view('schedule');
+    
+    });
+
+Route::get('/post{s}', function () {
+    $post = App\Post::latest()->get();
+ 
+    return view('post',[
+        'post'=>$post
+    ]);
+});
+
+//Route::get('/posts', function ($id) {
+    
+//});
+Route::get('/posts','PostsController@index');
+Route::get('/posts/{post}', 'PostsController@show');

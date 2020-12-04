@@ -12,13 +12,9 @@
 			<div id="bg"></div>
 			<div id="overlay"></div>
 			<div id="main">
-                <header id="header">
-                    <h1>JOSE BORQUEZ</h1>
-                    <p>Web Project Manager &nbsp;&bull;&nbsp; Internet Solutions Consultant &nbsp;&bull;&nbsp; Adventure Seeker</p>
-            @yield('content')
-                </header>
+@yield('content')
             </div>
-            </div>
+        </div>
 <!-- Footer -->
         <footer id="footer">
             <span class="copyright">&copy; Aria. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>

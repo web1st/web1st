@@ -1,4 +1,10 @@
-$primary: blue;
-body{
-    color: $primary;
+
+header{
+    li{
+        list-style: none;
+        align-self: flex-start;
+    }
+    h3{
+        color: black;
+    }
 }
