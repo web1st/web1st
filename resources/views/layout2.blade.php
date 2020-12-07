@@ -33,9 +33,11 @@
                                                 <a href="/service">Services</a>
                                                 <ul>
                                                     <li><a href="#">Web Development</a></li>
-                                                    <li><a href="#">Consulting</a></li>
-                                                    <li>
-                                                        <a href="/posts">Posts </a>
+													<li><a href="#">Consulting</a></li>
+													<li><a href="#">Training</a></li>
+												 	<!--   
+													<li>
+                                                        <a href="/post">Posts </a>
                                                         <ul>
                                                             <li><a href="#">Lorem ipsum dolor</a></li>
                                                             <li><a href="#">Phasellus consequat</a></li>
@@ -43,12 +45,13 @@
                                                             <li><a href="/">Etiam dolore nisl</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="/schedule">Solutions</a></li>
+													<li><a href="/schedule">Solutions</a></li>
+													-->
                                                 </ul>
                                             </li>
-                                            <li><a href="/posts">Posts</a></li>
+                                            <li><a href="/post">Posts</a></li>
                                             <li><a href="/schedule">Solutions</a></li>
-                                            <li><a href="/show">No Sidebar</a></li>
+                                           <li><a href="/show">Community Events</a></li>
                                         </ul>
                                     </nav>
 
@@ -196,12 +199,12 @@
 
             </div>
 		<!-- Scripts -->
-			<script src="fourfirst/assets/js/jquery.min.js"></script>
-			<script src="fourfirst/assets/js/jquery.dropotron.min.js"></script>
-			<script src="fourfirst/assets/js/browser.min.js"></script>
-			<script src="fourfirst/assets/js/breakpoints.min.js"></script>
-			<script src="fourfirst/assets/js/util.js"></script>
-			<script src="fourfirst/assets/js/main.js"></script>
+			<script src="/fourfirst/assets/js/jquery.min.js"></script>
+			<script src="/fourfirst/assets/js/jquery.dropotron.min.js"></script>
+			<script src="/fourfirst/assets/js/browser.min.js"></script>
+			<script src="/fourfirst/assets/js/breakpoints.min.js"></script>
+			<script src="/fourfirst/assets/js/util.js"></script>
+			<script src="/fourfirst/assets/js/main.js"></script>
 
 	</body>
 </html>

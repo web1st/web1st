@@ -40,7 +40,7 @@ Route::get('/schedule', function(){
     
     });
 
-Route::get('/post{s}', function () {
+Route::get('/post', function () {
     $post = App\Post::latest()->get();
  
     return view('post',[
