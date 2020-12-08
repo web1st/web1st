@@ -6,7 +6,7 @@
 -->
 <html> 
 	<head>
-		<title>ZeroFour by HTML5 UP</title>
+		<title>Internet technology services</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/fourfirst/assets/css/main.css" />
@@ -23,18 +23,17 @@
                             <div class="inner">
 
                                 <!-- Logo -->
-                                    <h1><a href="/offer" id="logo">ZeroFour</a></h1>
+                                    <h1><a href="/offer" id="logo">Web1st</a></h1>
 
                                 <!-- Nav -->
                                     <nav id="nav">
                                         <ul>
-                                            <li class="current_page_item"><a href="/">Home</a></li>
-                                            <li>
-                                                <a href="/service">Services</a>
+                                            <li class="{{ Request::path() === '/' ? 'current_page_item' : '' }}"><a href="/">Home</a></li>
+                                            <li class="{{ Request::path() === 'service' ? 'current_page_item' : ''}}" ><a href="/service">Services</a>
                                                 <ul>
-                                                    <li><a href="#">Web Development</a></li>
-													<li><a href="#">Consulting</a></li>
-													<li><a href="#">Training</a></li>
+                                                    <li><a href="/development">Web Development</a></li>
+													<!-- <li><a href="#">Consulting</a></li>-->
+													<!--<li><a href="#">Training</a></li>-->
 												 	<!--   
 													<li>
                                                         <a href="/post">Posts </a>
@@ -49,9 +48,9 @@
 													-->
                                                 </ul>
                                             </li>
-                                            <li><a href="/post">Posts</a></li>
-                                            <li><a href="/schedule">Solutions</a></li>
-                                           <li><a href="/show">Community Events</a></li>
+                                            <li class="{{ Request::path() === 'post' ? 'current_page_item' : ''}}"><a href="/post">Posts</a></li>
+                                            <li class="{{ Request::path() === 'schedule' ? 'current_page_item' : ''}}"><a href="/schedule">Portafolio</a></li>
+                                           <li class="{{ Request::path() === 'community' ? 'current_page_item' : ''}}"><a href="/community">Community Events</a></li>
                                         </ul>
                                     </nav>
 
@@ -64,32 +63,28 @@
 
 					</div>
 				</div>
-
+	 
 			<!-- Main Wrapper -->
-				<div id="main-wrapper">
 
-			
-                            <!-- Feature 1 service -->
+
+
+				<div id="main-wrapper">
+				                      <!-- Feature 1 service -->
     
 @yield('service')
-
-                            <!-- Feature 2 schedule -->       
-
+                  <!-- Feature 2 schedule -->       
 
 @yield('schedule')
-			
-                            <!-- Feature 3 content- post -->  
-
-                                   
-                                
+			                   <!-- Feature 3 content- post -->                            
                     
 @yield ('content')
 
 @yield ('posts')
+@yield('community') 
 
                           
             </div>
-
+			
 			<!-- Footer Wrapper -->
 				<div id="footer-wrapper">
 					<footer id="footer" class="container">

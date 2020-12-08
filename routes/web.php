@@ -40,6 +40,21 @@ Route::get('/schedule', function(){
     
     });
 
+Route::get('/development', function(){
+    return view('development');
+        
+    });
+
+    Route::get('/portafolio', function(){
+        return view('portafolio');
+            
+        });
+
+    Route::get('/community', function(){
+        return view('community');
+                
+        });
+
 Route::get('/post', function () {
     $post = App\Post::latest()->get();
  
