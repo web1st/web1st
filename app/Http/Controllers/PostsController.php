@@ -14,6 +14,24 @@ class PostsController extends Controller
         return view('posts.index',['posts'=>$posts]);
        
     }
+    public function create()
+    {
+        return view('posts.create');
+    }
+
+
+    public function store()
+    {
+        $post = new post();
+        $post->title=request('title');
+        $post->excerpt=request('excerpt');
+        $post->body=request('body');
+
+        $post->save();
+
+        return redirect('/post');
+    }
+ 
     public function show($posts)
 
     {
@@ -24,9 +42,5 @@ class PostsController extends Controller
 
         return view('posts.show',['posts'=>$posts]);
     }
-
-
-
-
 }
  

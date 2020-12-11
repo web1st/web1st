@@ -54,6 +54,10 @@ Route::get('/development', function(){
         return view('community');
                 
         });
+        Route::get('/create', function(){
+            return view('create');
+                    
+            });
 
 Route::get('/post', function () {
     $post = App\Post::latest()->get();
@@ -67,4 +71,6 @@ Route::get('/post', function () {
     
 //});
 Route::get('/posts','PostsController@index');
+Route::post('/posts', 'PostsController@store');
+Route::get('/posts/create', 'PostsController@create');
 Route::get('/posts/{post}', 'PostsController@show');

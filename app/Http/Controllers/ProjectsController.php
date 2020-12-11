@@ -1,21 +1,19 @@
 <?php
 
 namespace App\Http\Controllers;
-use DB;
-use App\Service;
+
 use Illuminate\Http\Request;
 
-class ServiceController extends Controller
+class ProjectsController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Service $service)
+    public function index()
     {
         //
-        $service->service();
     }
 
     /**
@@ -47,16 +45,7 @@ class ServiceController extends Controller
      */
     public function show($id)
     {
-        $service = Service::where('id', $id)->first();
-
-        // this substitut firstOrFail method instead of first 
-         if (!$post){
-         abort(404, 'Sorry post was not found.');
-          }
-
-        return view ('service', [
-            'post' => $post
-        ]);
+        //
     }
 
     /**

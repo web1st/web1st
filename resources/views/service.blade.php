@@ -9,8 +9,8 @@
     <div class="row">
         <div class="col-12">
             <header class="first major">
-                <h2>Internet Solutions Services</h2>
-                <p>Explore our services and lets start building something<strong>pretty awesome</strong> ...</p>
+                <h2>Web development services</h2>
+                <p>Our development process is easy three step process <strong> for your benefit.</strong> ...</p>
             </header>
         </div>
         <div class="col-4 col-12-medium">

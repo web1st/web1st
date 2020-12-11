@@ -9,7 +9,10 @@
 		<title>Internet technology services</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- CSS only -->
+		@yield('head')
 		<link rel="stylesheet" href="/fourfirst/assets/css/main.css" />
+		
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -59,14 +62,13 @@
                     </div>
 				</div>
 
-						@yield('offer')
+				@yield('offer')
+
 
 					</div>
 				</div>
-	 
 			<!-- Main Wrapper -->
-
-
+			
 
 				<div id="main-wrapper">
 				                      <!-- Feature 1 service -->
@@ -125,12 +127,10 @@
 
 								<!-- Links -->
 									<section>
-										<h2>Even More Filler</h2>
+										<h2>Partner Services</h2>
 										<ul class="divided">
-											<li><a href="#">Quam turpis feugiat dolor</a></li>
-											<li><a href="#">Amet ornare hendrerit lectus</a></li>
-											<li><a href="#">Semper quisturpis nisi</a></li>
-											<li><a href="#">Consequat lorem phasellus</a></li>
+											<li><a href="#">YOur business here </a></li>
+											<li><a href="#">Add yor Name here</a></li>
 										</ul>
 									</section>
 
