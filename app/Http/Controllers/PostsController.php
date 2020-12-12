@@ -29,7 +29,13 @@ class PostsController extends Controller
 
         $post->save();
 
-        return redirect('/post');
+        return redirect('post');
+    }
+ 
+    public function edit($id)
+    {
+        $post = Post::find($id);
+        return view('posts.edit', compact('post'));
     }
  
     public function show($posts)
@@ -40,7 +46,11 @@ class PostsController extends Controller
             abort(404);
         }
 
-        return view('posts.show',['posts'=>$posts]);
+        return view('/posts.show',['posts'=>$posts]);
     }
+
+
+
+ 
 }
  
