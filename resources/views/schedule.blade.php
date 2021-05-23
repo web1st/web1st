@@ -13,20 +13,17 @@
                                     <div class="col-6 col-12-medium">
                                          <section>
                                             <header class="major">
-                                                <h2>And this is a subheading</h2>
-                                                <p>It’s important but clearly not *that* important</p>
+                                                <h2>Ecomaidy</h2>
+                                                <p>Customer Support System with Laravel:</p>
                                             </header>
-                                            <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-                                            Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-                                            Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-                                            consequat etiam.</p>
+                                            <p>Our client came to us looking for a way to grow their business, our  web developmnet system set up is made to benefit small owner and entreprenueurs in local area.</p>
                                             <footer>
-                                                <a href="#" class="button medium icon solid fa-arrow-circle-right">Let's do this</a>
+                                                <a href="http://ecomaidy_01.test" class="button medium icon solid fa-arrow-circle-right">Visit Ecomaidy</a>
                                             </footer>
                                         </section>
                                     </div>
                                     <br>
-                                    <div class="col-6 col-12-medium">
+                                    {{-- <div class="col-6 col-12-medium">
                                         <section>
                                             <header class="major">
                                                 <h2>This is also a subheading</h2>
@@ -40,7 +37,7 @@
                                                 <a href="#" class="button medium alt icon solid fa-info-circle">Wait, what?</a>
                                             </footer>
                                         </section>
-                                    </div>
+                                    </div> --}}
                                 </div>
                      </section>
                     </div>

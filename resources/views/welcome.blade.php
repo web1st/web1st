@@ -1,20 +1,19 @@
-use Illuminate\Foundation\Inspiring;
-$quote = inspiring::quote();
-@extends('layout')
+@extends('layout2')
 
-@section('content')
-<header id="header">
-    <a href="\offer"><h1>Web1st</h1></a>
-    <p>{{\Illuminate\Foundation\Inspiring::quote()}}</p>
-    <nav>
-        <ul>
-            <li><a href="\service" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-            <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-            <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-            <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-        </ul>
-    </nav>
-</header>
+<!-- Header -->
+@section('offer')
+<!-- Banner -->
+<div class="container">
+<div id="header_wrapper">
+<div id="banner">
+  
+    <h2><strong>Internet Technology Services:</strong>  </h2> <p>Learn how the internet can give your business the web boost it needs.</p>
+    <br />
+  
+    <p>Let's build something</p>
+    <a href="#" class="button large icon solid fa-check-circle">Start </a>
+</div>
+</div>
+</div>
 
 @endsection

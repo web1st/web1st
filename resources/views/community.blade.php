@@ -14,16 +14,15 @@
 
                             <article>
                                 <header class="major">
-                                    <h2>Right Sidebar</h2>
-                                    <p>Which means the sidebar is on the right</p>
+                                    <h2>Our Plant a Tree Program.</h2>
+                                    <p>Technology for a greener future.</p>
                                 </header>
 
-                                <span class="image featured"><img src="images/pic08.jpg" alt="" /></span>
+                                <span class="image featured"><img src="public\images\pic08.jpg" alt="" /></span>
 
-                                <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-                                Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-                                Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-                                consequat etiam lorem ipsum dolor sit amet nullam.</p>
+                                <p>Web 1st believe in a greener planet for generations to come.
+                                    We are constantly looking for opportunites to care for our local mountains 
+                                    so we are partnering wit technology companies to reforest our local mountains</p>
 
                                 <h3>More intriguing information</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
@@ -52,12 +51,9 @@
 
                             <section>
                                 <header class="major">
-                                    <h2>Subheading</h2>
+                                    <h2>Phylantropyst</h2>
                                 </header>
-                                <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-                                Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-                                Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-                                consequat etiam.</p>
+                                <p>There is angels in our community who like to contribute and remain anonymus. Web1st needs donation to contribute and help the youngz the unprotected and the planet.</p>
                                 <footer>
                                     <a href="#" class="button icon solid fa-info-circle">Find out more</a>
                                 </footer>
@@ -65,18 +61,13 @@
 
                             <section>
                                 <header class="major">
-                                    <h2>Subheading</h2>
+                                    <h2>We Proudly Support:</h2>
                                 </header>
                                 <ul class="style2">
-                                    <li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-                                    <li><a href="#">Ornare in hendrerit in lectus</a></li>
-                                    <li><a href="#">Semper mod quis eget mi dolore</a></li>
-                                    <li><a href="#">Quam turpis feugiat sit dolor</a></li>
-                                    <li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-                                    <li><a href="#">Semper mod quisturpis nisi</a></li>
-                                    <li><a href="#">Consequat etiam lorem phasellus</a></li>
-                                    <li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-                                    <li><a href="#">Semper mod quisturpis nisi</a></li>
+                                    <li><a href="#">Trisonomy18.org</a></li>
+                                    <li><a href="#">Manos Amigas</a></li>
+                                    
+                                   
                                 </ul>
                                 <footer>
                                     <a href="#" class="button icon solid fa-arrow-circle-right">Do Something</a>

@@ -9,9 +9,9 @@
 		<title>Internet technology services</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!-- CSS only -->
-		@yield('head')
-		<link rel="stylesheet" href="/fourfirst/assets/css/main.css" />
+		<link rel="icon" href={{ asset('assets/images/web1st_icon.svg') }} />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+		<link href= {{ ('/assets/css/main.css') }} rel="stylesheet" />
 		
 	</head>
 	<body class="homepage is-preload">
@@ -31,7 +31,7 @@
                                 <!-- Nav -->
                                     <nav id="nav">
                                         <ul>
-                                            <li class="{{ Request::path() === '/' ? 'current_page_item' : '' }}"><a href="/">Home</a></li>
+                                           <!-- <li class="{{ Request::path() === '/' ? 'current_page_item' : '' }}"><a href="/">Home</a></li> -->
                                             <li class="{{ Request::path() === 'service' ? 'current_page_item' : ''}}" ><a href="/service">Services</a>
                                                 <ul>
                                                     <li><a href="/development">Web Development</a></li>
@@ -51,8 +51,9 @@
 													-->
                                                 </ul>
                                             </li>
+											<li class="{{ Request::path() === 'schedule' ? 'current_page_item' : ''}}"><a href="/schedule">Portafolio</a></li>
                                             <li class="{{ Request::path() === 'post' ? 'current_page_item' : ''}}"><a href="/post">Posts</a></li>
-                                            <li class="{{ Request::path() === 'schedule' ? 'current_page_item' : ''}}"><a href="/schedule">Portafolio</a></li>
+                                           
                                            <li class="{{ Request::path() === 'community' ? 'current_page_item' : ''}}"><a href="/community">Community Events</a></li>
                                         </ul>
                                     </nav>
@@ -98,17 +99,9 @@
 										<h2>Portafolio</h2>
 										<ul class="divided">
 											<li><a href="#">Ecomaidy.com</a></li>
-											<li><a href="#">Amet ornare in hendrerit </a></li>
-											<li><a href="#">Semper mod quisturpis nisi</a></li>
-											<li><a href="#">Consequat etiam phasellus</a></li>
-											<li><a href="#">Amet turpis, feugiat et</a></li>
-											<li><a href="#">Ornare hendrerit lectus</a></li>
-											<li><a href="#">Semper mod quis et dolore</a></li>
-											<li><a href="#">Amet ornare in hendrerit</a></li>
-											<li><a href="#">Consequat lorem phasellus</a></li>
-											<li><a href="#">Amet turpis, feugiat amet</a></li>
-											<li><a href="#">Semper mod quisturpis</a></li>
-										</ul>
+											<li><a href="#">Add your name here </a></li>
+											<li><a href="#">Let's team up</a></li>
+										
 									</section>
 
 							</div>
@@ -116,12 +109,11 @@
 
 								<!-- Links -->
 									<section>
-										<h2>More Filler</h2>
+										<h2>Community Links</h2>
 										<ul class="divided">
-											<li><a href="#">Quam turpis feugiat dolor</a></li>
-											<li><a href="#">Amet ornare in in lectus</a></li>
-											<li><a href="#">Semper mod sed tempus nisi</a></li>
-											<li><a href="#">Consequat etiam phasellus</a></li>
+											<li><a href="#">Web1st Lab</a></li>
+											<li><a href="#">Plant a Tree</a></li>
+											<li><a href="#">Parents & Web1st</a></li>
 										</ul>
 									</section>
 
@@ -139,11 +131,10 @@
 
 								<!-- About -->
 									<section>
-										<h2><strong>Web1st</strong> by Jose Borquez</h2>
-										<p>Hi! This is <strong>Jose</strong>, a tehcnology entusiast, Fully commited to the sharing of knowledge for the benefits of the communities. <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a>.
-										Reach us at :  <a href="http://html5up.net/license/">Creative Commons Attribution</a>
-										licensed so use it for any personal or commercial project (just credit us
-										for the design!).</p>
+										<h2><strong>Affordable Web</strong> for all !</h2>
+										<p>Hi! We are <strong>Web1st.solutions</strong>, tehcnology entusiasts, bringing together professionals commited to work for the benefits of the communities. <a href="http://twitter.com/web1st2"></a> For shchedule <a href="http://html5up.net/">Consulting</a>.
+										Reach us at :  <a href="http://web1st.solutions/shchedule">Web Development & Internet Technolgy Consulting Services</a>
+							</p>
 										<a href="#" class="button alt icon solid fa-arrow-circle-right">Learn More</a>
 									</section>
 
@@ -168,12 +159,12 @@
 													<dl class="contact">
 														<dt>Address</dt>
 														<dd>
-															1234 Fictional Rd<br />
-															Nashville, TN 00000-0000<br />
+															2841 E Lincoln Ave<br />
+															Anaheim, CA 92806<br />
 															USA
 														</dd>
 														<dt>Phone</dt>
-														<dd>(000) 000-0000</dd>
+														<dd>(714) 865-8542</dd>
 													</dl>
 												</div>
 											</div>
@@ -194,12 +185,12 @@
 
             </div>
 		<!-- Scripts -->
-			<script src="/fourfirst/assets/js/jquery.min.js"></script>
-			<script src="/fourfirst/assets/js/jquery.dropotron.min.js"></script>
-			<script src="/fourfirst/assets/js/browser.min.js"></script>
-			<script src="/fourfirst/assets/js/breakpoints.min.js"></script>
-			<script src="/fourfirst/assets/js/util.js"></script>
-			<script src="/fourfirst/assets/js/main.js"></script>
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.dropotron.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
 
 	</body>
 </html>

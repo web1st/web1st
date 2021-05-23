@@ -18,7 +18,6 @@ class CreatePostTable extends Migration
             $table->string('title');
             $table->text('excerpt');
             $table->text('body');
-            $table->timestamp('created_at')->nullable();
             $table->timestamps();
         });
     }

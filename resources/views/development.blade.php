@@ -15,34 +15,32 @@
 
                             <section>
                                 <header class="major">
-                                    <h2>Subheading</h2>
+                                    <h2>Donation Program</h2>
                                 </header>
-                                <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-                                Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-                                Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-                                consequat etiam.</p>
+                                <p>We have stablished a donation based program in INDEGOO. Our goal is promote business services products and individuals to make an internet prescense. The Best ROI pay as you go system for accesible for all.</p>
                                 <footer>
-                                    <a href="#" class="button icon solid fa-info-circle">Find out more</a>
+                                    <a href="https://www.indiegogo.com/project/preview/3ec36d05" class="button icon solid fa-info-circle">Donation Program</a>
                                 </footer>
                             </section>
 
                             <section>
                                 <header class="major">
-                                    <h2>Subheading</h2>
+                                    <h2>Get your hosting</h2>
                                 </header>
                                 <ul class="style2">
-                                    <li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-                                    <li><a href="#">Ornare in hendrerit in lectus</a></li>
-                                    <li><a href="#">Semper mod quis eget mi dolore</a></li>
-                                    <li><a href="#">Quam turpis feugiat sit dolor</a></li>
-                                    <li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-                                    <li><a href="#">Semper mod quisturpis nisi</a></li>
-                                    <li><a href="#">Consequat etiam lorem phasellus</a></li>
-                                    <li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-                                    <li><a href="#">Semper mod quisturpis nisi</a></li>
+                                    <li><a href="https://www.dreamhost.com/r.cgi?2491837/hosting/shared/" target="_blank">Shared Host</a></li>
+                                    <li><a href="https://www.dreamhost.com/r.cgi?2491837/hosting/vps/">VPS</a></li>								
+                                    <li><a href="https://www.dreamhost.com/r.cgi?2491837/hosting/dedicated/">Dedicated</a></li>
+                                    
+									<li><a href="https://www.dreamhost.com/r.cgi?2491837/wordpress/">Wordpress</a></li>
+
+
+											
+										
                                 </ul>
                                 <footer>
-                                    <a href="#" class="button icon solid fa-arrow-circle-right">Do Something</a>
+                                    <a href="https://www.dreamhost.com/r.cgi?2491837" class="button icon solid fa-arrow-circle-right">About hosting</a>
+                                
                                 </footer>
                             </section>
 
@@ -55,33 +53,16 @@
 
                             <article>
                                 <header class="major">
-                                    <h2>Left Sidebar</h2>
-                                    <p>Which means the sidebar is on the left</p>
+                                    <h2>Web development</h2>
+                                    <p>Let's build something amazing!.</p>
                                 </header>
 
-                                <span class="image featured"><img src="images/pic08.jpg" alt="" /></span>
+                                <span class="image featured"><img src="/assets/images/ian-schneider-TamMbr4okv4-unsplash.jpg" alt="" /></span>
 
-                                <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-                                Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-                                Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-                                consequat etiam lorem ipsum dolor sit amet nullam.</p>
+                                <h3>Our solution for web development</h3>
+                                <p>Establishing a web prescence can be very easy when we work together towards a goal</p>
 
-                                <h3>More intriguing information</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
-                                justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
-                                ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
-                                vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
-                                Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-                                rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
-                                Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
-                                Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.</p>
-
-                                <p>Phasellus odio risus, faucibus et viverra vitae, eleifend ac purus. Praesent mattis, enim
-                                quis hendrerit porttitor, sapien tortor viverra magna, sit amet rhoncus nisl lacus nec arcu.
-                                Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt. Mauris dolor urna,
-                                fringilla vel malesuada ac, dignissim eu mi. Praesent mollis massa ac nulla pretium pretium.
-                                Maecenas tortor mauris, consectetur pellentesque dapibus eget, tincidunt vitae arcu.
-                                Vestibulum purus augue, tincidunt sit amet iaculis id, porta eu purus.</p>
+                                <p>Our process is design to guide you thru the process from start to finish whether you have already a website and only need a website or you have a new product or business you want to promote sell or just expose your personal skills for hire. We are here for you and always will look the benefit and a way to your ROI goals.</p>
                             </article>
 
                     </div>

@@ -5,11 +5,11 @@
 <!-- Banner -->
 <div id="header_wrapper">
 <div id="banner">
-    <h2><strong>Donation Based Program:</strong> A full responsive site to boost your start-up
+    <h2><strong>Internet Technology Services:</strong>  </h2> <p>Learn how the internet can give your business the web boost it needs.</p>
     <br />
-    built on HTML and CSS by <a href="http://html5up.net">web1st.solutions</a></h2>
-    <p>Is your business ready to start using internet technology?</p>
-    <a href="#" class="button large icon solid fa-check-circle">Easiest </a>
+  
+    <p>Let's build something</p>
+    <a href="#" class="button large icon solid fa-check-circle">Start </a>
 </div>
 </div>
 

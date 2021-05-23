@@ -13,12 +13,13 @@ class PostController extends Controller
     public function index()
     {
         $post = Post::latest()->get();
-        return view('post.index',['post'=>$post]);
+        return view('posts.index',['post'=>$post]);
     }
 
     public function show($id)
     {
         $post = Post::find($id);
+         
         return view('posts.show',['posts'=>$post]);
     }
   
